@@ -23,7 +23,7 @@ async def start(update: Update, context: CallbackContext) -> None:
     
     # Send the message with the button
     # Using Markdown V2 formatting for bold text
-    message_text = "Earn from now Just by Watching\n*Earn upto 0\.01$ per ads*\nWatch ads and Earn now!"
+    message_text = "Earn from now Just by Watching\n*Earn upto 0\\.01\\$ per ads*\nWatch ads and Earn now\\!"
     
     await update.message.reply_text(
         message_text,
